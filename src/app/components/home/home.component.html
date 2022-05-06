@@ -1,0 +1,18 @@
+<table class="table">
+    <thead>
+      <tr class="table-info">
+        <th scope="col">RAMAL</th>
+        <th scope="col">SERIAL</th>
+        <th scope="col">IP</th>
+        <th scope="col">EDITAR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let table of tables">
+        <th scope="row">{{table.id}}</th>
+        <td>{{table.ramal}}</td>
+        <td>{{table.serial}}</td>
+        <td>{{table.ip}}</td>
+      </tr>
+    </tbody>
+  </table>
